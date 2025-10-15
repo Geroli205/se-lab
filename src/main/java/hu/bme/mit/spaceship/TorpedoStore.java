@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Assigned here, so every TorpedoStore uses the same RNG
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
